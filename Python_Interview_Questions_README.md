@@ -9,7 +9,6 @@
 The primary difference between lists and tuples in Python is their mutability:
 Lists are mutable: This means that after a list is created, its elements can be modified, added, or removed. Lists are defined using square brackets [].
 Python
-example;
     my_list = [1, 2, 3]
     my_list.append(4)  # Modifying the list
     print(my_list)  # Output: [1, 2, 3, 4]
