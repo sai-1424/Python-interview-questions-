@@ -6,12 +6,20 @@
 
 ## 1. Difference between List and Tuple in Python?
 
-| Feature     | List      | Tuple     |
-|-------------|-----------|-----------|
-| Mutability  | Mutable   | Immutable |
-| Syntax      | []        | ()        |
-| Performance | Slower    | Faster    |
-| Use Case    | Dynamic   | Static    |
+The primary difference between lists and tuples in Python is their mutability:
+Lists are mutable: This means that after a list is created, its elements can be modified, added, or removed. Lists are defined using square brackets [].
+Python
+example;
+    my_list = [1, 2, 3]
+    my_list.append(4)  # Modifying the list
+    print(my_list)  # Output: [1, 2, 3, 4]
+    
+Tuples are immutable: This means that once a tuple is created, its elements cannot be changed, added, or removed. Tuples are defined using parentheses ().
+Python
+example:
+    my_tuple = (1, 2, 3)
+    # my_tuple.append(4)  # This would raise an AttributeError
+    print(my_tuple)  # Output: (1, 2, 3)
 
 ---
 
